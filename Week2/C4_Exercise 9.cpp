@@ -6,7 +6,7 @@ int main() {
 	double current = 1;
 
 	cout << "Total\t\t" << "Current square\t\t" << "Square\n";
-	for (int square = 1; square <= 64; ++square) {					//This loops allows for 64 consequent calculations
+	for (double square = 1; square <= 64; ++square) {					//This loops allows for 64 consequent calculations
 		grains += current;							//Adds the new amount of grains to the previous
 		cout << grains << "\t\t" << current << "\t\t" << square << "\n";
 		current *= 2;								//Doubles the variable current as required

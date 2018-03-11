@@ -2,8 +2,8 @@
 #include "std_lib_facilities.h"
 
 int main() {
-	int grains = 0;
-	int current = 1;
+	double grains = 0;
+	double current = 1;
 
 	cout << "Total\t\t" << "Current square\t\t" << "Square\n";
 	for (int square = 1; square <= 64; ++square) {					//This loops allows for 64 consequent calculations
